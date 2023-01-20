@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Define character set: computer dont und alphabelts, only understand num => 0 & 1-->
+    <!-- ASCII-->
+    <!-- meta elements: give information about the web-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- configure viewport, so that the view is compatible on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- keywords, use for search engine optimization in the past-->
+    <meta name="keywords" content="NTML, CSS" />
+    <!-- description of the page-->
+    <meta name="description" content="..." />
+    <title>Document</title>
+    <style>
+      em {
+        color: red;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- heading 1 - 6; should use as heiracy purpose instead of use it based on SIZE-->
+    <!-- every page shud hv only one h1 element, after h1, shud be h2, dont just simply jump to h5 for ex-->
+    <!-- idea of sections and sub sections-->
+    <h1>Heading 1</h1>
+    <h2>HTML</h2>
+    <p>learning html</p>
+    <h3>Code</h3>
+    <h3>Exercise</h3>
+    <h2>CSS</h2>
+    <p>learning CSS</p>
+    <!-- em-> emphasize content in html doc, display in italic form by default, help search engines extract important content in doc -->
+    <!-- strong-> default bold, <b></b> -->
+    <!-- styling shud be done in css-->
+    <p>
+      I am <em>sadddddddd</em> ;/ <i>HOW....</i> I really
+      <strong>can't</strong> control my emotion
+    </p>
+
+    <!--About Entities &; -->
+    <!-- start wtih ampersand &, end with semicolon ;, between has char determine type of html entity -->
+    <!-- &lt; => <   &gt; => >    &copy; => copyright icon -->
+    <!-- refer to documentation -->
+    <p>trying out &lt; HTML &gt; also &copy;</p>
+
+    <!-- lorem{int: number of words} generate random words-->
+    <!-- &nbsp; => non-breaking space-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at
+      expedita esse enim blanditiis soluta aspernatur magnam, quas&nbsp;dolorem
+      voluptas repellat exercitationem quidem neque, unde odio, in aut adipisci
+      explicabo! Unde voluptates, inventore voluptas illum veniam nobis!
+      Asperiores adipisci explicabo, facere maxime eaque minima, magnam sequi
+      consectetur velit, quibusdam atque!
+    </p>
+
+    <!-- link -->
+    <!-- about.html => relative html; within same folder-->
+    <a href="about.html">aboutttt</a>
+    <!-- Part 0/index_1.html => relative url; not in same folder-->
+    <a href="../Part 0/index_1.html">
+      <!-- pressable img-->
+      <img src="../Part 0/images/READYBEX.png" alt="press me" />
+    </a>
+  </body>
+</html>

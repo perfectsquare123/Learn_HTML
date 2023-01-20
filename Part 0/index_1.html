@@ -1,0 +1,41 @@
+<!--write comment here-->
+<!-- doctype declaration -> this code tell browsers that this is an html5 doc-->
+<!DOCTYPE html>
+
+<!--Not case sensitive, but for convention, only DOCTYPE upper case-->
+<!--127.0.0.1:5500/index.html-->
+<!-- 127.0.0.1 -> ip address represent the local computer-->
+<!-- 5500 -> port number web server is listening to-->
+<!-- /index.html -> name of file-->
+
+<!-- browsers ignore white spaces in html and css code-->
+<!-- en -> english-->
+
+<html lang="en">
+  <head>
+    <!--title -> name of the tab-->
+    <title>My First Web Page</title>
+    <!-- circle -> radius = 0.5width-->
+    <!-- float: left -> push img to left of text element-->
+    <style>
+      img {
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 10px;
+      }
+
+      .username {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- dont have the closing, because img cannot contain child element-->
+    <img src="images/READYBEX.png" alt="An image of ReadyBex" />
+    <!-- p -> short for paragraph-->
+    <!-- class -> classification, use this attribute to put element inside different class or a different category-->
+    <p class="username">@perfectsqr</p>
+    <p>I am learning HTML!</p>
+  </body>
+</html>
