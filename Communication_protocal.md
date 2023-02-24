@@ -2,6 +2,8 @@
 
 Communication Protocal used for the transmission of movement's intructions between STM, RPI, Algo and Andriod.
 
+Each instruction is `5 char long`.
+
 ## Format
 
 ```c
@@ -34,14 +36,14 @@ magnitude = ((int)(aRxBuffer[2])-48)*100 + ((int)(aRxBuffer[3])-48)*10 + ((int)(
 
 ## Magnitude
 
-| Mag    | Meaning  |
-| ------ | :------: |
-| XXX    | Distance |
-| \_\_\_ |  Angle   |
+| Mag      | Meaning  |
+| -------- | :------: |
+| X X X    | Distance |
+| \_ \_ \_ |  Angle   |
 
 **Note**: It has to be 900, 090 or 009 format which equivalent to 900, 90 and 9 respectively.
 
-## All Possible Combination
+## All Possible Combinations
 
 | Instruction  |               Translation               |
 | ------------ | :-------------------------------------: |
