@@ -2,7 +2,7 @@
 
 ## Section 2: Introduction to HTML
 
-1. Headings Elements
+### 1. Headings Elements
 
 - hierachy
 - NO `<h7></h7>`
@@ -10,18 +10,25 @@
 - DON'T skip hierachy level
 - more info: <link href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"/>
 
-| `<h1>` | Hello World | `</h1>` |
-| opening tag | | close tag |
-| element |
+```html
+<h1>Hello World</h1>
+```
 
-2. Paragraph Elements
+| `<h1>`      | Hello World | `</h1>`   |
+| ----------- | ----------- | --------- |
+| opening tag |             | close tag |
+|             | element     |           |
+
+### 2. Paragraph Elements
 
 - know where is being seperated
 - seperated by a line
 
-| `<p>`This is a paragraph.`</p>` |
+```html
+<p>This is a paragraph.</p>
+```
 
-3. Void Elements
+### 3. Void Elements
 
 - The above 2 are non void
 - can also be written as `<hr>`, `<br>`
@@ -30,7 +37,9 @@
 
   - form a horizontal break out line
 
-    | `<hr />` |
+    ```html
+    <hr />
+    ```
 
   b. Break Element
 
@@ -42,6 +51,6 @@
 
 ## Section 3: Intermediate HTML
 
-1. List Element
+### 1. List Element
 
-   a. unordered list
+a. unordered list
