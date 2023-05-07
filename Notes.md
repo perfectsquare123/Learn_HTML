@@ -33,7 +33,7 @@
 - The above 2 are non void
 - can also be written as `<hr>`, `<br>`
 
-  a. Horizontal Rule Element
+  #### a. Horizontal Rule Element
 
   - form a horizontal break out line
 
@@ -41,16 +41,19 @@
     <hr />
     ```
 
-  b. Break Element
+  #### b. Break Element
 
   - show the break in paragraphs (like ENTER)
 
-  | `<p>` This is a paragraph. `<br />` This is a paragraph. `</p>` |
-  | Result: |
-  | This is a paragraph.<br />This is a paragraph.|
+  ```html
+  <p>
+    This is a paragraph. <br />
+    This is a paragraph.
+  </p>
+  ```
 
 ## Section 3: Intermediate HTML
 
 ### 1. List Element
 
-a. unordered list
+#### a. unordered list
