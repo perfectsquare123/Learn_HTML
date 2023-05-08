@@ -8,7 +8,7 @@
 - NO `<h7></h7>`
 - NO more than one `<h1></h1>`
 - DON'T skip hierachy level
-- more info: <link href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"/>
+- more info: <link href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">headings</link>
 
 ```html
 <h1>Hello World</h1>
@@ -88,7 +88,7 @@ _Result: _
 </ol>
 ```
 
-_Result: _
+**Result:**
 
   <ol>
     <li>flour</li>
@@ -113,7 +113,7 @@ _Result: _
 </ul>
 ```
 
-_Result: _
+**Result:**
 
 <ul>
   <li>A
@@ -129,4 +129,10 @@ _Result: _
 
 Format:
 
-> <tag attribute = value>Content</tag>
+> ```html
+> <tag attribute="value" anotherattribute="value">Content</tag>
+> ```
+
+Resource:
+
+<link href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">list</link>
