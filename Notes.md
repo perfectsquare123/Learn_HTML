@@ -8,7 +8,7 @@
 - NO `<h7></h7>`
 - NO more than one `<h1></h1>`
 - DON'T skip hierachy level
-- more info: <link href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">headings</link>
+- more info: [headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 
 ```html
 <h1>Hello World</h1>
@@ -133,6 +133,118 @@ Format:
 > <tag attribute="value" anotherattribute="value">Content</tag>
 > ```
 
-Resource:
+Example:
 
-<link href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">list</link>
+```html
+<a href="https://youtube.com/" draggable="true">Youtube</a>
+```
+
+Resource:
+[list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+
+### 3. Image Element
+
+Format:
+
+> ```html
+> <img arc="url" alt="alternate text description" />
+> ```
+
+- the `alt` text help blind to understand what is the picture about, there's a website can translate and read out this alt text to the blind to tell them what this picture is about
+
+## Section 4: Multi-page website
+
+### 1. File path
+
+#### a. Absolute file path
+
+- file path that is relative to the root of the computer
+- computer will know the path to reach the destination file
+
+Example:
+
+> "C:\Users\cihui\Downloads\The Complete 2023 Web Development Bootcamp\Doc\Web Dev Syllabus.pdf"
+
+#### b. Relative file path
+
+- specify the path relative to where we write the code
+- shorter, easier to navigate and move the file around
+
+  Go up a level
+
+  > ../fileName1
+
+  Stay within the current directory
+
+  > ./fileName2
+
+### 2. Redirect to other webpage
+
+Example:
+
+- create a clickable link to link to another page
+
+```html
+<a href="./about.html">About Me</a>
+<a href="./about.html"><img src="./assets/images/cat.png" /></a>
+```
+
+### 3. HTML Boilerplate
+
+SHORTCUT to get the HTML boilerplate, (save the file as `.html` first)
+
+> `SHIFT` + `!`, then `ENTER`
+
+**Format:**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Website</title>
+    ...
+  </head>
+  <body>
+    <h1>Hellooo</h1>
+    ...
+  </body>
+</html>
+```
+
+- Tell browser this file reading is written in HTML version 5
+
+  > ```HTML
+  > <!DOCTYPE HTML>
+  > ```
+
+- root of document, inform what is the language using ie. English
+
+  > ```HTML
+  > <html lang="en"> ... </html>
+  > ```
+
+- an area where important information about website will be placed in that is not going to display to user
+- include things that help website to render correctly, but not contents
+
+  > ```HTML
+  > <head> ... </head>
+  > ```
+
+- things that we always include in the `<head>` tags are the `<meta>` tags
+
+  - `charset`: character set encoding in the webpage, ensures characters we using in website always display correctly
+
+    > ```HTML
+    > <meta charset="UTF-8" />
+    > ```
+
+  - `title`: title of the webpage that will be displayed on the tab
+    > ```HTML
+    > <title>My Website</title>
+    > ```
+
+- an area where include all the contents
+  > ```HTML
+  > <body>...</body>
+  > ```
