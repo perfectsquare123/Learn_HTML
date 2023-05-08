@@ -202,6 +202,10 @@ SHORTCUT to get the HTML boilerplate, (save the file as `.html` first)
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Keep the code compatible to Internet -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- tell the broswer how to display website when it first open-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
     ...
   </head>
@@ -248,3 +252,5 @@ SHORTCUT to get the HTML boilerplate, (save the file as `.html` first)
   > ```HTML
   > <body>...</body>
   > ```
+
+### 4. Deploy website free on github
