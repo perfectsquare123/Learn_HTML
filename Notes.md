@@ -57,3 +57,76 @@
 ### 1. List Element
 
 #### a. unordered list
+
+- result in bullet form
+
+```html
+<ul>
+  <li>flour</li>
+  <li>code</li>
+  <li>some</li>
+</ul>
+```
+
+_Result: _
+
+  <ul>
+    <li>flour</li>
+    <li>code</li>
+    <li>some</li>
+  </ul>
+
+#### b. ordered list
+
+- result in numbers bullet
+
+```html
+<ol>
+  <li>flour</li>
+  <li>code</li>
+  <li>some</li>
+</ol>
+```
+
+_Result: _
+
+  <ol>
+    <li>flour</li>
+    <li>code</li>
+    <li>some</li>
+  </ol>
+
+#### c. nested list
+
+- use indentation to make nested
+
+```html
+<ul>
+  <li>
+    A
+    <ol>
+      <li>A1</li>
+      <li>A2</li>
+    </ol>
+  </li>
+  <li>B</li>
+</ul>
+```
+
+_Result: _
+
+<ul>
+  <li>A
+    <ol>
+      <li>A1</li>
+      <li>A2</li>
+    </ol>
+  </li>
+  <li>B</li>
+</ul>
+
+### 2. Anchor Element
+
+Format:
+
+> <tag attribute = value>Content</tag>
